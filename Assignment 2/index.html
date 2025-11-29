@@ -1,1 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Music Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: white;
+      color: #333;
+      text-align: center;
+    }
 
+    h2 {
+      color: #f15122;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+
+    /* Features section */
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 65px;
+      margin-bottom: 70px;
+      flex-wrap: wrap;
+    }
+
+    .feature {
+      width: 140px;
+      font-size: 14px;
+    }
+
+    .feature-icon {
+      background-color: #111;
+      border-radius: 50%;
+      padding: 24px;
+      margin-bottom: 12px;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #54bbff;
+      font-size: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .feature b {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    /* Featured Guests */
+    .guests {
+      display: flex;
+      justify-content: center;
+      gap: 45px;
+      margin-bottom: 70px;
+      flex-wrap: wrap;
+    }
+
+    .guest-card {
+      width: 240px;
+      box-shadow: 0 0 15px #eee;
+      padding: 25px 15px 30px;
+      background: white;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .guest-card img {
+      width: 125px;
+      height: 125px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .guest-card b {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 15px;
+      display: block;
+      color: #111;
+    }
+
+    .guest-card p {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 15px;
+      line-height: 1.4;
+    }
+
+    .guest-card button {
+      background-color: #a05f5f;
+      border: none;
+      padding: 7px 22px;
+      border-radius: 2px;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .guest-card button:hover {
+      background-color: #7a433d;
+    }
+
+    /* Buy What's New */
+    .new-section {
+      margin-bottom: 30px;
+    }
+
+    .new-items {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .new-item {
+      width: 220px;
+      text-align: left;
+      margin-bottom: 35px;
+    }
+
+    .new-item img {
+      width: 100%;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 3px;
+      margin-bottom: 7px;
+    }
+
+    .new-item b {
+      font-weight: bold;
+      font-size: 15px;
+      color: black;
+      margin-bottom: 3px;
+      display: block;
+    }
+
+    .new-item small {
+      font-size: 13px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Get ready for seamless online music</h2>
+  <div class="features">
+    <div class="feature">
+      <div class="feature-icon">&#8595;</div>
+      <b>Offline mode</b>
+      <p>Save and listen anywhere.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">HQ</div>
+      <b>High quality audio.</b>
+      <p>Enjoy the full range of sound.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">ADS</div>
+      <b>No ads.</b>
+      <p>Enjoy nonstop music.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">&#9658;&#10073;</div>
+      <b>Unlimited skips.</b>
+      <p>Just tap skip.</p>
+    </div>
+  </div>
+
+  <h2>Featured Guests</h2>
+  <div class="guests">
+    <div class="guest-card">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Megan Smith" />
+      <b>Megan Smith</b>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, provident! Lorem ipsum dolor</p>
+      <button>Register</button>
+    </div>
+    <div class="guest-card">
+      <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="Brooke Kagle" />
+      <b>Brooke Kagle</b>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, provident! Lorem ipsum dolor</p>
+      <button>Register</button>
+    </div>
+    <div class="guest-card">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Philip Martin" />
+      <b>Philip Martin</b>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, provident! Lorem ipsum dolor</p>
+      <button>Register</button>
+    </div>
+  </div>
+
+  <h2>BUY WHAT’S NEW</h2>
+  <div class="new-items">
+    <div class="new-item">
+      <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Garage Band" />
+      <b>Garage Band</b>
+      <small>Radio Station</small>
+    </div>
+    <div class="new-item">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Garage Band" />
+      <b>Garage Band</b>
+      <small>Radio Station</small>
+    </div>
+    <div class="new-item">
+      <img src="https://images.unsplash.com/photo-1514790193030-c89d266d5a9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Garage Band" />
+      <b>Garage Band</b>
+      <small>Radio Station</small>
+    </div>
+    <div class="new-item">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Garage Band" />
+      <b>Garage Band</b>
+      <small>Radio Station</small>
+    </div>
+    <div class="new-item">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Garage Band" />
+      <b>Garage Band</b>
+      <small>Radio Station</small>
+    </div>
+  </div>
+
+</body>
+</html>
